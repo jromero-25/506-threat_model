@@ -11,12 +11,13 @@
     "diagrams": [
       {
         "id": 2,
-        "title": "New LINDDUN diagram",
-        "diagramType": "LINDDUN",
-        "placeholder": "New LINDDUN diagram description",
-        "thumbnail": "./public/content/images/thumbnail.linddun.jpg",
+        "title": "STRIDE model ",
+        "diagramType": "STRIDE",
+        "placeholder": "New STRIDE diagram description",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
         "version": "2.6.2",
-        "cells": []
+        "cells": [],
+        "description": "This diagram maps the architectural data flows and trust boundaries for a Placebo Inc. workstation. It models STRIDE-based threat behaviors and potential attack vectors associated with a ransomware infection originating from either internal or external network access points, ultimately targeting corporate assets and local data stores"
       }
     ],
     "diagramTop": 3,
