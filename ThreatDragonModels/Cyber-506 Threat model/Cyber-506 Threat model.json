@@ -11,7 +11,7 @@
     "diagrams": [
       {
         "id": 2,
-        "title": "STRIDE model ",
+        "title": " STRIDE diagram",
         "diagramType": "STRIDE",
         "placeholder": "New STRIDE diagram description",
         "thumbnail": "./public/content/images/thumbnail.stride.jpg",
@@ -406,9 +406,18 @@
           }
         ],
         "description": "This diagram maps the architectural data flows and trust boundaries for a Placebo Inc. workstation. It models STRIDE-based threat behaviors and potential attack vectors associated with a ransomware infection originating from either internal or external network access points, ultimately targeting corporate assets and local data stores"
+      },
+      {
+        "id": 3,
+        "title": "Attack tree",
+        "diagramType": "Generic",
+        "placeholder": "New generic diagram description",
+        "thumbnail": "./public/content/images/thumbnail.jpg",
+        "version": "2.6.2",
+        "cells": []
       }
     ],
-    "diagramTop": 3,
+    "diagramTop": 4,
     "reviewer": "Group 1",
     "threatTop": 0
   }
