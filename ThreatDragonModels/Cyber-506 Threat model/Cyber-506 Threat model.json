@@ -24,7 +24,7 @@
           {
             "position": {
               "x": 126.25,
-              "y": -159.99999999999864
+              "y": -149.99999999999864
             },
             "size": {
               "width": 880,
@@ -414,53 +414,6 @@
             "target": {
               "cell": "7498be7e-dc84-43fb-a11d-b8aa793b6c2f",
               "port": "ccf7989e-7af9-4083-bf31-97e1acf8e61f"
-            },
-            "vertices": []
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Disrupt BCP",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "Disrupt BCP"
-            ],
-            "id": "ffe025ca-e1bf-4852-b8a5-4f473ca9eee3",
-            "source": {
-              "cell": "25bc7dae-29a9-4e30-8c38-c7b856a60b1c",
-              "port": "f93e04d6-5765-4b0a-8083-3efed600c076"
-            },
-            "target": {
-              "cell": "e546d276-2342-4804-9311-5e6fde1bbf49",
-              "port": "50d42322-3515-4279-a148-4a5d1f301b4b"
             },
             "vertices": []
           },
@@ -1082,13 +1035,107 @@
             "vertices": []
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              ""
+            ],
+            "id": "0b41fea2-3698-418c-8b4b-54f706984045",
+            "source": {
+              "cell": "ef58e6fd-195f-4af7-b898-fa34bc1455ea",
+              "port": "8b832fac-f168-44d8-9f0a-6e42cf4b643e"
+            },
+            "target": {
+              "cell": "c995af4a-6467-4839-b0cc-747db6b75033",
+              "port": "ccf7989e-7af9-4083-bf31-97e1acf8e61f"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              ""
+            ],
+            "id": "8f9ea8aa-55f0-4dcd-a7ed-ea425f09dd6a",
+            "source": {
+              "cell": "e11e8480-9793-414b-bb5a-b1c73b861d86",
+              "port": "8b832fac-f168-44d8-9f0a-6e42cf4b643e"
+            },
+            "target": {
+              "cell": "bc594591-ac5d-424c-a44a-b89ca0be81b2",
+              "port": "f548446f-e791-4af8-b07b-ff8a4fc0c30a"
+            },
+            "vertices": []
+          },
+          {
             "position": {
-              "x": 190,
-              "y": 70
+              "x": 185,
+              "y": 60
             },
             "size": {
-              "width": 60,
-              "height": 60
+              "width": 70,
+              "height": 70
             },
             "attrs": {
               "text": {
@@ -1322,7 +1369,7 @@
           {
             "position": {
               "x": 126.25,
-              "y": 200
+              "y": 220.00000000000006
             },
             "size": {
               "width": 120,
@@ -1445,7 +1492,7 @@
           },
           {
             "position": {
-              "x": 126.25,
+              "x": 140,
               "y": 330
             },
             "size": {
@@ -1685,136 +1732,12 @@
           },
           {
             "position": {
-              "x": 794.5,
-              "y": 575
+              "x": 420,
+              "y": 530
             },
             "size": {
               "width": 70,
-              "height": 50
-            },
-            "attrs": {
-              "text": {
-                "text": "MFA / MDM"
-              },
-              "topLine": {
-                "strokeWidth": 1.5,
-                "strokeDasharray": null
-              },
-              "bottomLine": {
-                "strokeWidth": 1.5,
-                "strokeDasharray": null
-              }
-            },
-            "visible": true,
-            "shape": "store",
-            "zIndex": 28,
-            "ports": {
-              "groups": {
-                "top": {
-                  "position": "top",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "right": {
-                  "position": "right",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "bottom": {
-                  "position": "bottom",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "left": {
-                  "position": "left",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                }
-              },
-              "items": [
-                {
-                  "group": "top",
-                  "id": "391f84b5-295e-496f-bccb-6463e9811761"
-                },
-                {
-                  "group": "right",
-                  "id": "70dda842-639e-4308-a890-3b2df7f365a5"
-                },
-                {
-                  "group": "bottom",
-                  "id": "2b6bf04f-9f12-4fec-ae5c-ea00d7de938d"
-                },
-                {
-                  "group": "left",
-                  "id": "7b4f0571-7bcb-4642-a873-b1f9b67c08d9"
-                }
-              ]
-            },
-            "id": "73de2fd1-34bf-4bf2-a51e-9c7c49a4ec80",
-            "data": {
-              "type": "tm.Store",
-              "name": "MFA / MDM",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isALog": false,
-              "isEncrypted": false,
-              "isSigned": false,
-              "storesCredentials": false,
-              "storesInventory": false,
-              "threats": []
-            }
-          },
-          {
-            "position": {
-              "x": 390,
-              "y": 495
-            },
-            "size": {
-              "width": 60,
-              "height": 60
+              "height": 70
             },
             "attrs": {
               "text": {
@@ -1929,12 +1852,12 @@
           },
           {
             "position": {
-              "x": 270,
-              "y": 495
+              "x": 295,
+              "y": 530
             },
             "size": {
-              "width": 60,
-              "height": 60
+              "width": 70,
+              "height": 70
             },
             "attrs": {
               "text": {
@@ -2049,8 +1972,8 @@
           },
           {
             "position": {
-              "x": 320,
-              "y": 635
+              "x": 385,
+              "y": 675
             },
             "size": {
               "width": 80,
@@ -2418,11 +2341,11 @@
           {
             "position": {
               "x": 500,
-              "y": 220
+              "y": 210.00000000000006
             },
             "size": {
-              "width": 90,
-              "height": 90
+              "width": 70,
+              "height": 80
             },
             "attrs": {
               "text": {
@@ -2774,7 +2697,7 @@
           },
           {
             "position": {
-              "x": 96.25,
+              "x": 80,
               "y": 460
             },
             "size": {
@@ -2796,6 +2719,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 47,
             "ports": {
               "groups": {
                 "top": {
@@ -2879,7 +2803,6 @@
               ]
             },
             "id": "dff6d989-7ec4-49aa-b037-505e36fb9925",
-            "zIndex": 47,
             "data": {
               "type": "tm.Store",
               "name": "Security cameras",
@@ -2917,6 +2840,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 48,
             "ports": {
               "groups": {
                 "top": {
@@ -3000,7 +2924,6 @@
               ]
             },
             "id": "487f99d0-66f7-4eec-bc38-2149d49be56f",
-            "zIndex": 48,
             "data": {
               "type": "tm.Process",
               "name": "Lateral attack",
@@ -3022,8 +2945,8 @@
               "y": 435
             },
             "size": {
-              "width": 60,
-              "height": 60
+              "width": 70,
+              "height": 70
             },
             "attrs": {
               "text": {
@@ -3037,6 +2960,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 51,
             "ports": {
               "groups": {
                 "top": {
@@ -3120,7 +3044,6 @@
               ]
             },
             "id": "e00e831e-d572-4bd8-bf01-cf39567b8b7e",
-            "zIndex": 51,
             "data": {
               "type": "tm.Process",
               "name": "Reconnaissance",
@@ -3138,12 +3061,12 @@
           },
           {
             "position": {
-              "x": 330,
-              "y": 370
+              "x": 365,
+              "y": 390
             },
             "size": {
-              "width": 60,
-              "height": 60
+              "width": 70,
+              "height": 70
             },
             "attrs": {
               "text": {
@@ -3157,6 +3080,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 53,
             "ports": {
               "groups": {
                 "top": {
@@ -3240,7 +3164,6 @@
               ]
             },
             "id": "41a82c6a-1726-42f5-a3fe-099cee662525",
-            "zIndex": 53,
             "data": {
               "type": "tm.Process",
               "name": "Collect credentials",
@@ -3258,11 +3181,11 @@
           },
           {
             "position": {
-              "x": 550,
-              "y": 405
+              "x": 500,
+              "y": 355
             },
             "size": {
-              "width": 80,
+              "width": 70,
               "height": 80
             },
             "attrs": {
@@ -3277,6 +3200,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 54,
             "ports": {
               "groups": {
                 "top": {
@@ -3360,7 +3284,6 @@
               ]
             },
             "id": "c34d685d-7d7b-42e1-b050-32eda4966ca7",
-            "zIndex": 54,
             "data": {
               "type": "tm.Process",
               "name": "zero day attack",
@@ -3378,12 +3301,12 @@
           },
           {
             "position": {
-              "x": 349,
-              "y": 220
+              "x": 360,
+              "y": 250
             },
             "size": {
               "width": 80,
-              "height": 80
+              "height": 70
             },
             "attrs": {
               "text": {
@@ -3397,6 +3320,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 55,
             "ports": {
               "groups": {
                 "top": {
@@ -3480,7 +3404,6 @@
               ]
             },
             "id": "bc594591-ac5d-424c-a44a-b89ca0be81b2",
-            "zIndex": 55,
             "data": {
               "type": "tm.Process",
               "name": "Network Enumeration",
@@ -3498,8 +3421,8 @@
           },
           {
             "position": {
-              "x": 540,
-              "y": 595
+              "x": 555,
+              "y": 570
             },
             "size": {
               "width": 100,
@@ -3520,6 +3443,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 56,
             "ports": {
               "groups": {
                 "top": {
@@ -3603,7 +3527,6 @@
               ]
             },
             "id": "66405253-e367-4d74-b5d8-6e88210357c5",
-            "zIndex": 56,
             "data": {
               "type": "tm.Store",
               "name": "Patch mgmt",
@@ -3644,6 +3567,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 57,
             "ports": {
               "groups": {
                 "top": {
@@ -3727,7 +3651,6 @@
               ]
             },
             "id": "f191da81-68fb-47e9-84ca-3cfc228f8de3",
-            "zIndex": 57,
             "data": {
               "type": "tm.Store",
               "name": "Security awareness",
@@ -3765,6 +3688,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 58,
             "ports": {
               "groups": {
                 "top": {
@@ -3848,10 +3772,257 @@
               ]
             },
             "id": "3a985209-9ca3-4731-9818-aa1a5f0194fe",
-            "zIndex": 58,
             "data": {
               "type": "tm.Store",
               "name": "Store",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isALog": false,
+              "isEncrypted": false,
+              "isSigned": false,
+              "storesCredentials": false,
+              "storesInventory": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 635,
+              "y": 370
+            },
+            "size": {
+              "width": 80,
+              "height": 50
+            },
+            "attrs": {
+              "text": {
+                "text": "MFA"
+              },
+              "topLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              },
+              "bottomLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "store",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "8b832fac-f168-44d8-9f0a-6e42cf4b643e"
+                },
+                {
+                  "group": "right",
+                  "id": "e1605d05-3e45-4a17-b0a8-dbd15d5a5de8"
+                },
+                {
+                  "group": "bottom",
+                  "id": "c726b0f3-c100-4d29-a3be-7ed9a13626e4"
+                },
+                {
+                  "group": "left",
+                  "id": "970ffed3-809c-485e-b1a3-c47fca34cb32"
+                }
+              ]
+            },
+            "id": "ef58e6fd-195f-4af7-b898-fa34bc1455ea",
+            "zIndex": 59,
+            "data": {
+              "type": "tm.Store",
+              "name": "MFA",
+              "description": "Protect against compromised accounts. ",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isALog": false,
+              "isEncrypted": false,
+              "isSigned": false,
+              "storesCredentials": false,
+              "storesInventory": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 230,
+              "y": 400
+            },
+            "size": {
+              "width": 80,
+              "height": 50
+            },
+            "attrs": {
+              "text": {
+                "text": "Network IPS"
+              },
+              "topLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              },
+              "bottomLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "store",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "8b832fac-f168-44d8-9f0a-6e42cf4b643e"
+                },
+                {
+                  "group": "right",
+                  "id": "e1605d05-3e45-4a17-b0a8-dbd15d5a5de8"
+                },
+                {
+                  "group": "bottom",
+                  "id": "c726b0f3-c100-4d29-a3be-7ed9a13626e4"
+                },
+                {
+                  "group": "left",
+                  "id": "970ffed3-809c-485e-b1a3-c47fca34cb32"
+                }
+              ]
+            },
+            "id": "e11e8480-9793-414b-bb5a-b1c73b861d86",
+            "zIndex": 60,
+            "data": {
+              "type": "tm.Store",
+              "name": "Network IPS",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
