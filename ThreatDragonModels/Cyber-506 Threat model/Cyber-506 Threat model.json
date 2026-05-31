@@ -819,6 +819,53 @@
             "vertices": []
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              ""
+            ],
+            "id": "61db0963-0b88-41e6-af93-b288e697c6ef",
+            "source": {
+              "cell": "f191da81-68fb-47e9-84ca-3cfc228f8de3",
+              "port": "acbabe30-84fa-4a3e-95b6-dc0dcfb1e87b"
+            },
+            "target": {
+              "cell": "e00e831e-d572-4bd8-bf01-cf39567b8b7e",
+              "port": "7507ee4e-cff4-4968-93bc-21a7e3e89c81"
+            },
+            "vertices": []
+          },
+          {
             "position": {
               "x": 425,
               "y": -135
@@ -1795,7 +1842,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Spear Phishing campaign"
+                "text": "Phishing campaign"
               },
               "body": {
                 "stroke": "#333333",
@@ -1891,7 +1938,7 @@
             "id": "7498be7e-dc84-43fb-a11d-b8aa793b6c2f",
             "data": {
               "type": "tm.Process",
-              "name": "Spear Phishing campaign",
+              "name": "Phishing campaign",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -2263,8 +2310,8 @@
           },
           {
             "position": {
-              "x": 220,
-              "y": 390
+              "x": 215,
+              "y": 400
             },
             "size": {
               "width": 70,
@@ -2747,8 +2794,8 @@
           },
           {
             "position": {
-              "x": 815,
-              "y": 235
+              "x": 885,
+              "y": 390
             },
             "size": {
               "width": 120,
