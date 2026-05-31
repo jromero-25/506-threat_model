@@ -46,280 +46,17 @@
               "isTrustBoundary": true,
               "hasOpenThreats": false,
               "crossingFlows": [
-                "582e367d-1819-4a69-bfe1-8908dce76621",
                 "f2f52d19-f347-47d5-a0b7-32c2e7ebf689",
                 "4994a69a-d8f4-49fe-995c-1b3d5001c622",
                 "60f665f5-a03e-446b-b0d0-516e912abb05",
                 "14cd3c4d-549d-4a53-89e8-c8e52f660ec3"
               ],
               "containedElements": [
-                "25bc7dae-29a9-4e30-8c38-c7b856a60b1c",
-                "8a315aa3-d2aa-431b-a1c7-6e606afcabc9",
                 "e546d276-2342-4804-9311-5e6fde1bbf49",
                 "7498be7e-dc84-43fb-a11d-b8aa793b6c2f",
                 "487f99d0-66f7-4eec-bc38-2149d49be56f"
               ]
             }
-          },
-          {
-            "position": {
-              "x": 150,
-              "y": -115
-            },
-            "size": {
-              "width": 140,
-              "height": 60
-            },
-            "attrs": {
-              "text": {
-                "text": "Backup data"
-              },
-              "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
-                "strokeDasharray": null
-              }
-            },
-            "visible": true,
-            "shape": "actor",
-            "zIndex": 6,
-            "ports": {
-              "groups": {
-                "top": {
-                  "position": "top",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "right": {
-                  "position": "right",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "bottom": {
-                  "position": "bottom",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "left": {
-                  "position": "left",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                }
-              },
-              "items": [
-                {
-                  "group": "top",
-                  "id": "9cf913c4-431e-464b-8293-0cfd9c5d0c17"
-                },
-                {
-                  "group": "right",
-                  "id": "f93e04d6-5765-4b0a-8083-3efed600c076"
-                },
-                {
-                  "group": "bottom",
-                  "id": "3bd74287-e57e-4528-a348-0aeb9554d44a"
-                },
-                {
-                  "group": "left",
-                  "id": "816392b1-5234-492d-9e0b-3dd9d8573c61"
-                }
-              ]
-            },
-            "id": "25bc7dae-29a9-4e30-8c38-c7b856a60b1c",
-            "data": {
-              "type": "tm.Actor",
-              "name": "Backup data",
-              "description": "Limit their option to restore and only to pay up ransom fee.",
-              "isTrustBoundary": false,
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "providesAuthentication": false,
-              "threats": []
-            }
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              ""
-            ],
-            "id": "50814a06-0c53-4363-a0d1-9e3b969bfe41",
-            "source": {
-              "cell": "8a315aa3-d2aa-431b-a1c7-6e606afcabc9",
-              "port": "6ac7342f-9f62-4005-ab70-5533bcd43ab1"
-            },
-            "target": {
-              "cell": "25bc7dae-29a9-4e30-8c38-c7b856a60b1c",
-              "port": "3bd74287-e57e-4528-a348-0aeb9554d44a"
-            },
-            "vertices": []
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": [
-                "989d3905-bba4-4016-a47a-698f58cff9f7"
-              ]
-            },
-            "labels": [
-              ""
-            ],
-            "id": "582e367d-1819-4a69-bfe1-8908dce76621",
-            "source": {
-              "cell": "f09a8150-0faf-45bf-ab89-44348786464f",
-              "port": "391f84b5-295e-496f-bccb-6463e9811761"
-            },
-            "target": {
-              "cell": "8a315aa3-d2aa-431b-a1c7-6e606afcabc9",
-              "port": "4e0d2e5c-9ad5-4015-a978-5a7459c99e94"
-            },
-            "vertices": []
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              ""
-            ],
-            "id": "089d0fa3-0e8c-4485-8812-5850640360de",
-            "source": {
-              "cell": "d6baa5a0-1a12-421f-94ee-8a2471ca5fc7",
-              "port": "f912fa4f-6d13-496b-9bbe-064bf5ab7fa4"
-            },
-            "target": {
-              "cell": "f09a8150-0faf-45bf-ab89-44348786464f",
-              "port": "2b6bf04f-9f12-4fec-ae5c-ea00d7de938d"
-            },
-            "vertices": []
           },
           {
             "shape": "flow",
@@ -1082,176 +819,9 @@
             "vertices": []
           },
           {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              ""
-            ],
-            "id": "52f1a0d1-f0a7-4fa6-94e5-145239ab733a",
-            "source": {
-              "cell": "dff6d989-7ec4-49aa-b037-505e36fb9925",
-              "port": "93f440af-8820-45aa-bdb0-8c4e15c870ba"
-            },
-            "target": {
-              "cell": "d6baa5a0-1a12-421f-94ee-8a2471ca5fc7",
-              "port": "ccf7989e-7af9-4083-bf31-97e1acf8e61f"
-            },
-            "vertices": []
-          },
-          {
             "position": {
-              "x": 185,
-              "y": 60
-            },
-            "size": {
-              "width": 70,
-              "height": 70
-            },
-            "attrs": {
-              "text": {
-                "text": "Physical damage"
-              },
-              "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
-                "strokeDasharray": null
-              }
-            },
-            "visible": true,
-            "shape": "process",
-            "zIndex": 11,
-            "ports": {
-              "groups": {
-                "top": {
-                  "position": "top",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "right": {
-                  "position": "right",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "bottom": {
-                  "position": "bottom",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "left": {
-                  "position": "left",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                }
-              },
-              "items": [
-                {
-                  "group": "top",
-                  "id": "6ac7342f-9f62-4005-ab70-5533bcd43ab1"
-                },
-                {
-                  "group": "right",
-                  "id": "32c6fc89-60e3-498b-b74e-44b90f3bdc90"
-                },
-                {
-                  "group": "bottom",
-                  "id": "4e0d2e5c-9ad5-4015-a978-5a7459c99e94"
-                },
-                {
-                  "group": "left",
-                  "id": "5bb361e7-f052-448a-9a5f-ab9d519d3e8e"
-                }
-              ]
-            },
-            "id": "8a315aa3-d2aa-431b-a1c7-6e606afcabc9",
-            "data": {
-              "type": "tm.Process",
-              "name": "Physical damage",
-              "description": "Deploys ransomware",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "handlesCardPayment": false,
-              "handlesGoodsOrServices": false,
-              "isWebApplication": false,
-              "privilegeLevel": "",
-              "threats": []
-            }
-          },
-          {
-            "position": {
-              "x": 490,
-              "y": -125
+              "x": 400,
+              "y": -135
             },
             "size": {
               "width": 200,
@@ -1365,250 +935,6 @@
               "threats": []
             },
             "children": []
-          },
-          {
-            "position": {
-              "x": 126.25,
-              "y": 220.00000000000006
-            },
-            "size": {
-              "width": 120,
-              "height": 60
-            },
-            "attrs": {
-              "text": {
-                "text": "Security guards"
-              },
-              "topLine": {
-                "strokeWidth": 1.5,
-                "strokeDasharray": null
-              },
-              "bottomLine": {
-                "strokeWidth": 1.5,
-                "strokeDasharray": null
-              }
-            },
-            "visible": true,
-            "shape": "store",
-            "zIndex": 23,
-            "ports": {
-              "groups": {
-                "top": {
-                  "position": "top",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "right": {
-                  "position": "right",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "bottom": {
-                  "position": "bottom",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "left": {
-                  "position": "left",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                }
-              },
-              "items": [
-                {
-                  "group": "top",
-                  "id": "391f84b5-295e-496f-bccb-6463e9811761"
-                },
-                {
-                  "group": "right",
-                  "id": "70dda842-639e-4308-a890-3b2df7f365a5"
-                },
-                {
-                  "group": "bottom",
-                  "id": "2b6bf04f-9f12-4fec-ae5c-ea00d7de938d"
-                },
-                {
-                  "group": "left",
-                  "id": "7b4f0571-7bcb-4642-a873-b1f9b67c08d9"
-                }
-              ]
-            },
-            "id": "f09a8150-0faf-45bf-ab89-44348786464f",
-            "data": {
-              "type": "tm.Store",
-              "name": "Security guards",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isALog": false,
-              "isEncrypted": false,
-              "isSigned": false,
-              "storesCredentials": false,
-              "storesInventory": false,
-              "threats": []
-            }
-          },
-          {
-            "position": {
-              "x": 140,
-              "y": 330
-            },
-            "size": {
-              "width": 60,
-              "height": 60
-            },
-            "attrs": {
-              "text": {
-                "text": "Insider threat (guard)"
-              },
-              "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
-                "strokeDasharray": null
-              }
-            },
-            "visible": true,
-            "shape": "process",
-            "zIndex": 24,
-            "ports": {
-              "groups": {
-                "top": {
-                  "position": "top",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "right": {
-                  "position": "right",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "bottom": {
-                  "position": "bottom",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "left": {
-                  "position": "left",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                }
-              },
-              "items": [
-                {
-                  "group": "top",
-                  "id": "f912fa4f-6d13-496b-9bbe-064bf5ab7fa4"
-                },
-                {
-                  "group": "right",
-                  "id": "a26f2402-a37c-4b31-b3c1-0b66f1e8bda5"
-                },
-                {
-                  "group": "bottom",
-                  "id": "ccf7989e-7af9-4083-bf31-97e1acf8e61f"
-                },
-                {
-                  "group": "left",
-                  "id": "21e6cc55-13b0-4ebb-bf0e-31207f0be28a"
-                }
-              ]
-            },
-            "id": "d6baa5a0-1a12-421f-94ee-8a2471ca5fc7",
-            "data": {
-              "type": "tm.Process",
-              "name": "Insider threat (guard)",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "handlesCardPayment": false,
-              "handlesGoodsOrServices": false,
-              "isWebApplication": false,
-              "privilegeLevel": "",
-              "threats": []
-            }
           },
           {
             "position": {
@@ -2340,8 +1666,8 @@
           },
           {
             "position": {
-              "x": 500,
-              "y": 210.00000000000006
+              "x": 485,
+              "y": 220
             },
             "size": {
               "width": 70,
@@ -2697,131 +2023,7 @@
           },
           {
             "position": {
-              "x": 80,
-              "y": 460
-            },
-            "size": {
-              "width": 120,
-              "height": 60
-            },
-            "attrs": {
-              "text": {
-                "text": "Security cameras"
-              },
-              "topLine": {
-                "strokeWidth": 1.5,
-                "strokeDasharray": null
-              },
-              "bottomLine": {
-                "strokeWidth": 1.5,
-                "strokeDasharray": null
-              }
-            },
-            "visible": true,
-            "shape": "store",
-            "zIndex": 47,
-            "ports": {
-              "groups": {
-                "top": {
-                  "position": "top",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "right": {
-                  "position": "right",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "bottom": {
-                  "position": "bottom",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "left": {
-                  "position": "left",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                }
-              },
-              "items": [
-                {
-                  "group": "top",
-                  "id": "93f440af-8820-45aa-bdb0-8c4e15c870ba"
-                },
-                {
-                  "group": "right",
-                  "id": "aa61ba63-0451-45f9-a232-ef5f853b9da5"
-                },
-                {
-                  "group": "bottom",
-                  "id": "40e117dc-da31-4d15-8ac9-3e7586a05f3f"
-                },
-                {
-                  "group": "left",
-                  "id": "acbabe30-84fa-4a3e-95b6-dc0dcfb1e87b"
-                }
-              ]
-            },
-            "id": "dff6d989-7ec4-49aa-b037-505e36fb9925",
-            "data": {
-              "type": "tm.Store",
-              "name": "Security cameras",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isALog": false,
-              "isEncrypted": false,
-              "isSigned": false,
-              "storesCredentials": false,
-              "storesInventory": false,
-              "threats": []
-            }
-          },
-          {
-            "position": {
-              "x": 390,
+              "x": 370,
               "y": 20
             },
             "size": {
@@ -3301,8 +2503,8 @@
           },
           {
             "position": {
-              "x": 360,
-              "y": 250
+              "x": 290,
+              "y": 210
             },
             "size": {
               "width": 80,
@@ -3691,6 +2893,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 59,
             "ports": {
               "groups": {
                 "top": {
@@ -3774,7 +2977,6 @@
               ]
             },
             "id": "ef58e6fd-195f-4af7-b898-fa34bc1455ea",
-            "zIndex": 59,
             "data": {
               "type": "tm.Store",
               "name": "MFA",
@@ -3815,6 +3017,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 60,
             "ports": {
               "groups": {
                 "top": {
@@ -3898,7 +3101,6 @@
               ]
             },
             "id": "e11e8480-9793-414b-bb5a-b1c73b861d86",
-            "zIndex": 60,
             "data": {
               "type": "tm.Store",
               "name": "Network IPS",
