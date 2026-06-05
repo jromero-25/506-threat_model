@@ -435,7 +435,12 @@
               "cell": "487f99d0-66f7-4eec-bc38-2149d49be56f",
               "port": "f548446f-e791-4af8-b07b-ff8a4fc0c30a"
             },
-            "vertices": []
+            "vertices": [
+              {
+                "x": 290,
+                "y": 170
+              }
+            ]
           },
           {
             "shape": "flow",
@@ -767,6 +772,157 @@
             "vertices": []
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              ""
+            ],
+            "id": "d8bc67e3-9acd-43a3-b1e5-2bfd143ecab5",
+            "source": {
+              "cell": "716d81ea-e4ed-49d0-bf73-afae4166164a",
+              "port": "9ecfdf87-d642-4982-b7e0-afe869782f49"
+            },
+            "target": {
+              "cell": "487f99d0-66f7-4eec-bc38-2149d49be56f",
+              "port": "f548446f-e791-4af8-b07b-ff8a4fc0c30a"
+            },
+            "vertices": [
+              {
+                "x": 160,
+                "y": 170
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              ""
+            ],
+            "id": "2c6a6de7-9c51-4ce5-a29a-0007b9a27268",
+            "source": {
+              "cell": "41a82c6a-1726-42f5-a3fe-099cee662525",
+              "port": "d5ab4a4a-a82a-4ef2-afdc-5c3c5d480d34"
+            },
+            "target": {
+              "cell": "487f99d0-66f7-4eec-bc38-2149d49be56f",
+              "port": "f548446f-e791-4af8-b07b-ff8a4fc0c30a"
+            },
+            "vertices": [
+              {
+                "x": 240,
+                "y": 150
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "and",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "and"
+            ],
+            "id": "c25d6265-2490-496d-b9f7-fc682bd31e09",
+            "source": {
+              "cell": "41a82c6a-1726-42f5-a3fe-099cee662525",
+              "port": "7507ee4e-cff4-4968-93bc-21a7e3e89c81"
+            },
+            "target": {
+              "cell": "bc594591-ac5d-424c-a44a-b89ca0be81b2",
+              "port": "3f8e8e6a-61e4-452b-9664-ad822714e4f2"
+            },
+            "vertices": []
+          },
+          {
             "position": {
               "x": 425,
               "y": -135
@@ -886,8 +1042,8 @@
           },
           {
             "position": {
-              "x": 150,
-              "y": 540
+              "x": 90,
+              "y": 410
             },
             "size": {
               "width": 70,
@@ -1006,8 +1162,8 @@
           },
           {
             "position": {
-              "x": 210,
-              "y": 695
+              "x": 180,
+              "y": 565
             },
             "size": {
               "width": 80,
@@ -1375,7 +1531,7 @@
           {
             "position": {
               "x": 480,
-              "y": 25
+              "y": 40.00000000000301
             },
             "size": {
               "width": 90,
@@ -1494,8 +1650,8 @@
           },
           {
             "position": {
-              "x": 745,
-              "y": 25
+              "x": 755,
+              "y": 30.000000000003013
             },
             "size": {
               "width": 90,
@@ -1503,7 +1659,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Phishing campaign"
+                "text": "Phishing \ncampaign"
               },
               "body": {
                 "stroke": "#333333",
@@ -1599,7 +1755,7 @@
             "id": "7498be7e-dc84-43fb-a11d-b8aa793b6c2f",
             "data": {
               "type": "tm.Process",
-              "name": "Phishing campaign",
+              "name": "Phishing \ncampaign",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1731,8 +1887,8 @@
           },
           {
             "position": {
-              "x": 210,
-              "y": 25
+              "x": 180,
+              "y": 35
             },
             "size": {
               "width": 120,
@@ -1851,8 +2007,8 @@
           },
           {
             "position": {
-              "x": 220,
-              "y": 340
+              "x": 170,
+              "y": 240
             },
             "size": {
               "width": 70,
@@ -1860,7 +2016,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Collect user credentials"
+                "text": "Collect user \ncredentials"
               },
               "body": {
                 "stroke": "#333333",
@@ -1956,7 +2112,7 @@
             "id": "41a82c6a-1726-42f5-a3fe-099cee662525",
             "data": {
               "type": "tm.Process",
-              "name": "Collect user credentials",
+              "name": "Collect user \ncredentials",
               "description": "some credentials like providers will have higher access to HPII. ",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1972,7 +2128,7 @@
           {
             "position": {
               "x": 490,
-              "y": 195
+              "y": 215
             },
             "size": {
               "width": 70,
@@ -1980,7 +2136,7 @@
             },
             "attrs": {
               "text": {
-                "text": "zero day attack"
+                "text": "zero day\nattack"
               },
               "body": {
                 "stroke": "#333333",
@@ -2076,7 +2232,7 @@
             "id": "c34d685d-7d7b-42e1-b050-32eda4966ca7",
             "data": {
               "type": "tm.Process",
-              "name": "zero day attack",
+              "name": "zero day\nattack",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -2091,8 +2247,8 @@
           },
           {
             "position": {
-              "x": 300,
-              "y": 200
+              "x": 320,
+              "y": 240
             },
             "size": {
               "width": 80,
@@ -2100,7 +2256,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Network Discovery"
+                "text": "Network \nDiscovery"
               },
               "body": {
                 "stroke": "#333333",
@@ -2196,7 +2352,7 @@
             "id": "bc594591-ac5d-424c-a44a-b89ca0be81b2",
             "data": {
               "type": "tm.Process",
-              "name": "Network Discovery",
+              "name": "Network \nDiscovery",
               "description": "Enumerate other elements direct the Web Shell tactic onto the LAN endpoints.",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -2212,7 +2368,7 @@
           {
             "position": {
               "x": 400,
-              "y": 360
+              "y": 400
             },
             "size": {
               "width": 100,
@@ -2459,8 +2615,8 @@
           },
           {
             "position": {
-              "x": 50,
-              "y": 225
+              "x": 6.25,
+              "y": 250
             },
             "size": {
               "width": 100,
@@ -2583,8 +2739,8 @@
           },
           {
             "position": {
-              "x": 570,
-              "y": 350
+              "x": 580,
+              "y": 380
             },
             "size": {
               "width": 70,
@@ -2592,7 +2748,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Stolen credentials"
+                "text": "Stolen \ncredentials"
               },
               "body": {
                 "stroke": "#333333",
@@ -2688,7 +2844,7 @@
             "id": "eec3cd82-0ae7-4bff-bcc8-67ca6e2ef761",
             "data": {
               "type": "tm.Process",
-              "name": "Stolen credentials",
+              "name": "Stolen \ncredentials",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -2823,8 +2979,8 @@
           },
           {
             "position": {
-              "x": 545,
-              "y": 424
+              "x": 665,
+              "y": 545
             },
             "size": {
               "width": 90,
@@ -3071,8 +3227,8 @@
           },
           {
             "position": {
-              "x": 270,
-              "y": 540
+              "x": 265,
+              "y": 410
             },
             "size": {
               "width": 80,
